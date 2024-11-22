@@ -80,3 +80,14 @@ The folder titled “zach_images” in the repo are where 5 of my visualizations
 
 
 James: I completed the analysis between MPAA ratings and IMDB scores. I recieved debugging help from DuVoe Moua and also the Xpert learning assistant.
+
+Ethan Donoho:
+Created the time_of_year.ipynb notebook. 
+This notebook explores to answer the question: Does the time of the year of a film’s release affect its ratings. 
+The first section of code, “Data Cleaning”, narrows down the csv file from output for my specific use. I created “Day, Month, Year, Day of Year, Quarter” columns. These give information on the release time of each film. 
+The next section of code “Visualizations” creates many visualizations to help find any correlations between the data. 
+The bar graphs simply show the number of films that fall into each quarter, month, and day of the year for each film. 
+The box plots show the spread of the imdb ratings for each time period. An anova test was run on each of these plots as well, and the results are displayed above each plot. 
+The scatter plots much more clearly show the average IMDB rating per time period. For each plot, a  regression line is plotted, along with its equation. The correlation coefficients are displayed above each plot. 
+The last section of the notebook, “Analysis”, analyzes the box plots and scatter plots while summarizing the results altogether. 
+Xpert Learning Assistant was used for syntax help while running anova tests. Stack overflow was used for help with pd.date_time conversion and spontaneously for help throughout the notebook. No chunks of code were copied. Worked collaboratively with all other members in the group. 
