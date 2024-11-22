@@ -67,4 +67,16 @@ Steps taken:
 30.) Export to CSV for visualizations and analysis
 
 
+Movie Runtime
+I used Xpert Learning assistant to fix my code and to generate my bar graphs. 
+I also used it to fix and edit my code for running a linear regression on the ratings for each minute. 
+It also helped me with my code for counting and sorting my bar graph for amount of movies in each runtime group.
+I used chat GPT to debug and tweak code for separating runtimes by length.
+My group also helped me with tweaking my box plot code and fixing my images that were blank when generated.
+The analysis for my graphs and project are in the ipynb titled zach_code. 
+To run the code, you need to read in the csv from Output, without that file it cannot run. 
+The folder titled “zach_images” in the repo are where 5 of my visualizations are saved and I ended up using 3 of them for the project itself. 
+
+
+
 James: I completed the analysis between MPAA ratings and IMDB scores. I recieved debugging help from DuVoe Moua and also the Xpert learning assistant.
