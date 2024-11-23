@@ -10,7 +10,7 @@ Namely,
 
 All code is nested within *group_project*.
 
-## Data Cleaning Process (DuVoe Moua):
+## Data Cleaning Process (DuVoe Moua)
 Used google’s gemini to search for specific ways to manipulate columns. I also got help from my group when we were deciding on ways to filter the data to run through our for loop. I also received help from Jordan to extract the rotten tomatoes scores from the ratings column. 
 
 Steps taken:
@@ -18,7 +18,7 @@ First I downloaded the tsv files from the imdb developer page and loaded the pat
 
  Put the data in a dataframe. Once the data was in the dataframe I dropped columns DVD, Website and totalSeasons and filtered out non movie types again. Ultimately, we ended up not using Metascore and Rotten tomatoes scores but we did convert them to 10 point scales. I converted the “Year” column to an integer and again removed titles outside of our range 2010-2019. I also removed TV ratings and replaced ratings with “13+” to PG-13 and removed the word “min” from “Runtime”. Once finished I created a new dataframe and then exported it to a csv for the visualization and analysis portions. 
 
-## Box Office (Makenna Vick):
+## Box Office (Makenna Vick)
 In *box_office*, we compare a movie’s domestic box office — measured in gross USD — to its average IMDB rating. Movies that made less than a reasonable amount (arbitrarily chosen as ~$10k) were dropped. We then split the data into 20 quantiles and plotted accordingly; see *box_office_binned* in *Images*. Notes & conclusions can be found within the jupyter notebook.
 
 Thank you to Ethan Donoho and the rest of my group for helping me with my portion of the project. Stack Exchange & Google’s Gemini also came to the rescue with miscellaneous questions regarding syntax.
@@ -33,10 +33,10 @@ The analysis for my graphs and project are in the ipynb titled zach_code.
 To run the code, you need to read in the csv from Output, without that file it cannot run. 
 The folder titled “zach_images” in the repo are where 5 of my visualizations are saved and I ended up using 3 of them for the project itself. 
 
-## MPAA Ratings (James Elander): 
+## MPAA Ratings (James Elander) 
 I completed the analysis between MPAA ratings and IMDB scores. I recieved debugging help from DuVoe Moua and also the Xpert learning assistant.
 
-## Time of Year (Ethan Donoho):
+## Time of Year (Ethan Donoho)
 Created the time_of_year.ipynb notebook. 
 This notebook explores to answer the question: Does the time of the year of a film’s release affect its ratings. 
 The first section of code, “Data Cleaning”, narrows down the csv file from output for my specific use. I created “Day, Month, Year, Day of Year, Quarter” columns. These give information on the release time of each film. 
@@ -46,3 +46,7 @@ The box plots show the spread of the imdb ratings for each time period. An anova
 The scatter plots much more clearly show the average IMDB rating per time period. For each plot, a regression line is plotted, along with its equation. The correlation coefficients are displayed above each plot. 
 The last section of the notebook, “Analysis”, analyzes the box plots and scatter plots while summarizing the results altogether. 
 Xpert Learning Assistant was used for syntax help while running anova tests. Stack overflow was used for help with pd.date_time conversion and spontaneously for help throughout the notebook. No chunks of code were copied. Worked collaboratively with all other members in the group. 
+
+## Presentation (Nick O'Donnell)
+I was the project manager for Movie ratings.
+I helped make my team organized and made sure we were on time for our deadlines. I will say that I did cause us to be a little behind on our slideshow. As a result, the slideshow wasn't as professional as we wanted. However, I believe that our message was well displayed, and our data analysis and visualization were comprehensive and well put together to demonstrate our message and findings.
