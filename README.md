@@ -91,3 +91,5 @@ The box plots show the spread of the imdb ratings for each time period. An anova
 The scatter plots much more clearly show the average IMDB rating per time period. For each plot, a  regression line is plotted, along with its equation. The correlation coefficients are displayed above each plot. 
 The last section of the notebook, “Analysis”, analyzes the box plots and scatter plots while summarizing the results altogether. 
 Xpert Learning Assistant was used for syntax help while running anova tests. Stack overflow was used for help with pd.date_time conversion and spontaneously for help throughout the notebook. No chunks of code were copied. Worked collaboratively with all other members in the group. 
+
+Makenna Vick:
